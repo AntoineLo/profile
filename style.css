@@ -16,9 +16,15 @@ h2 {
 }
 a {
   text-decoration: none;
+}
+div {
+  display: block;
+}
+#page-content a {
+  text-decoration: none;
   color: rgb(200, 200, 200);
 }
-a:hover {
+#page-content a:hover {
   color: #3F5B9C;
 }
 ul {
@@ -35,16 +41,13 @@ img {
   display: inline;
   margin: 20px;
   font-size: 17px;
-}
-.container {
-  width: 500px;
-  margin: 0 auto;
+  line-height: 1.6em;
 }
 .card {
   background: white;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
   border-radius: 2px;
-  margin: 20px;
+  margin: 10px;
   padding: 20px;
 }
 .text-center {
@@ -56,13 +59,13 @@ img {
 #img-profile {
   border: 2px solid #CCCCCC;
 }
-.btn-blue {
+#page-content .btn-blue {
   background: #3F5B9C;
   padding: 10px;
   border-radius: 5px;
   color: white;
 }
-.btn-blue:hover {
+#page-content .btn-blue:hover {
   color: rgb(201,201,201);
 }
 .fa {
@@ -70,4 +73,62 @@ img {
 }
 .blue-icons {
   color: #3F5B9C
+}
+#sidebar {
+  position: fixed;
+  background: #454545;
+  width: 150px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+}
+#page-content {
+  margin-left: 150px;
+}
+.sidebar-menu {
+  padding: 10px;
+  font-family: "ProximaNova", "Helvetica", "sans-serif";
+}
+.sidebar-menu:hover {
+  background: #383838;
+  color: white;
+}
+#sidebar-top {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: #383838;
+  color: white;
+  font-weight: bold;
+  margin-top: -15px;
+}
+#sidebar a {
+  color: rgb(200, 200, 200);
+}
+#sidebar a:hover {
+  color: white;
+}
+#wrapper {
+  padding: 20px;
+  width: 1000px;
+  margin: -10px auto;
+  display: table;
+  border-radius: 2px;
+  background: rgba(175, 175, 175, 0.1);
+}
+#left {
+  width: 40%;
+  float: left;
+}
+#right {
+  width: 60%;
+  float: right;
+}
+.clear {
+  clear: both;
+}
+#footer {
+  position: relative;
+}
+.card p {
+  padding-left: 5px;
 }
